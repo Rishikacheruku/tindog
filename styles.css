@@ -1,0 +1,179 @@
+#title{
+  background-color: #ff4c68;
+}
+body{
+  font-family: "Montserrat-black", sans-serif;
+}
+h1{
+font-family: "Montserrat-black", sans-serif;
+font:bold;
+font-size: 5rem;
+line-height: 1.5;
+}
+h2{
+  font-family:"montserrat";
+  font: bold;
+  font-size: 2.0rem;
+ }
+ h3{
+  font-family: 'Montserrat', serif;
+  font-size: 1.5rem;
+  font:bold;
+
+ }
+.container-fluid{
+  padding:3% 15% 7%;
+
+}
+#title{
+  color: white;
+
+}
+
+.btn{
+  size:20px;
+}
+img{
+  size: 1px;
+}
+
+.navbar{
+  padding:0 0 4.5;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+
+.nav-item{
+  padding:0 18px;
+
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "montserrat-light";
+}
+.btn{
+  margin: 5% 3% 5% 0% ;
+}
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute ;
+  right: 30%;
+ }
+
+ #features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+ 
+ }
+
+ .ft{
+text-align: center;
+  padding: 4.5%;
+ }
+ .fa-4x{
+  margin-bottom: 1.5rem;
+  color:#ff4c68;
+
+ }
+ .fa-4x:hover{
+  color:black;
+ }
+
+ #testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+  padding-bottom: 0%;
+ }
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 5%;
+}
+
+.carousel-item{
+   padding: 7% 15%;
+}
+
+#press{
+  background-color: #ef8172;
+  padding:3%;
+  text-align: center;
+}
+
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.card-body{
+  line-height: 1.5rem;
+}
+
+#pricing{
+  padding: 7% 15%;
+  text-align: center;    
+}
+
+.price{
+  font-family:roboto ;
+  font-size:50px;
+}
+.card-deck{
+  text-align: center;
+  margin-left: 200px;
+}
+
+#cta{
+  background-color:#ef8172;
+  color: white;
+  padding:7% 15%;
+  text-align: center;
+
+}
+
+.dog{
+  font-family: "Montserrat-black", sans-serif;
+font-size: 4.5rem;
+line-height: 1.5;
+}
+
+.bt{
+  font-size: 15px;
+  align-content: center;
+}
+
+#footer{
+  padding: 7% 15%;
+  padding-bottom: 0;
+  text-align: center;
+
+
+}
+
+.sc{
+  font-size: 100px;
+}
+.sc:hover{
+  color: #ef8172;
+}
+@media (max-width:1020px){
+  #title{
+    text-align: center;
+  }
+.title-image{
+  position:static;
+  transform: rotate(0);
+}
+}
+
